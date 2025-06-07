@@ -1,3 +1,7 @@
+📄 #PDF Page Extractor GUI
+
+A minimalist Python application with a Tkinter GUI to select, preview, and extract a specific range of pages from a PDF file. Ideal for quick PDF manipulation with user-friendly controls and visual previews.
+
 🚀 Features
 📂 Input/Output Path Selection via file/folder dialogs
 
@@ -10,11 +14,17 @@
 🐍 Clean Object-Oriented Code design with extensible structure
 
 📸 Interface Overview
+
 Feature	Description
+
 Input PDF Path	Browse and select the source PDF file
+
 Output Folder	Choose the folder to save the extracted PDF
+
 Page Range (Start/End)	Specify the page numbers to extract
+
 Page Preview	Image thumbnails for start and end pages
+
 Export PDF	Save the selected page range as a new PDF
 
 🧰 Requirements
@@ -23,8 +33,10 @@ Install the required Python packages using:
 bash
 Copy
 Edit
-pip install PyPDF2 pdf2image pillow
+`pip install PyPDF2 pdf2image pillow`
+
 🔧 Additional Requirement
+
 pdf2image requires Poppler to render PDF pages as images:
 
 Windows: Download from https://blog.alivate.com.au/poppler-windows/
@@ -39,15 +51,19 @@ Copy
 Edit
 pdf-page-extractor/
 ├── PDFPageExtractor.py     # Core logic for PDF extraction
-├── gui_app.py              # Tkinter GUI application
+├── gui_app.py              # Tkinter GUI application; to be converted to using [ auto-py-to-exe ]
 └── README.md               # Project documentation
 📦 Usage
+
 1. Run the Application
+
 bash
 Copy
 Edit
 python gui_app.py
+
 2. Extract Pages via GUI
+
 Choose your Input PDF
 
 Select an Output Folder
