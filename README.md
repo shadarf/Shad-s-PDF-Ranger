@@ -1,4 +1,4 @@
-📄 #PDF Page Extractor GUI
+📄 PDF Page Extractor GUI
 
 A minimalist Python application with a Tkinter GUI to select, preview, and extract a specific range of pages from a PDF file. Ideal for quick PDF manipulation with user-friendly controls and visual previews.
 
